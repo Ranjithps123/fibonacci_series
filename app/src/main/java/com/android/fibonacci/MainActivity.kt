@@ -9,7 +9,7 @@ import android.util.Log
 
 class MainActivity : AppCompatActivity() {
     private var mRecyclerView: RecyclerView? = null
-    private val recycler_view_items = 20
+    private val recycler_view_items = 20 //No. of items added to recyclerview at a time
     private val TAG = MainActivity::class.qualifiedName
 
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -27,7 +27,7 @@ class RecyclerViewAdapter(private var count: Int) : RecyclerView.Adapter<Recycle
         holder.febonacci_no.text = "Fibonacci "+(FibonacciCalculation.getFibonacciNumber(position + 1))
     }
 
-
+    // add items to recycler view
     fun addItems(itemsAddCount : Int) {
         count +=itemsAddCount
         notifyItemRangeInserted(count-itemsAddCount, count)
